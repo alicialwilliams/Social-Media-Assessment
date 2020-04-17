@@ -1,0 +1,63 @@
+/*Come back to this section for a Navigation Section */
+
+* {
+    box-sizing: border-box;
+    margin: 0,0,0;
+}
+
+.header {
+    width: 850px;
+    height: 350px;
+    position: relative;
+    background-color: rgb(111, 127, 196);
+    top: 100px;
+    left: 30px;
+}
+    
+.header-info {
+    margin: 100px;
+    list-style: none;
+    display: inline;
+    content: ;
+
+}
+
+.header-info li{
+    position: relative;
+    list-style: none;
+    font-size: 24px;
+    font: bold;
+    font-family: sans-serif;
+    top: 250px;
+    left: 205px;
+}
+
+.header-sm {
+
+width: 850px;
+height: 100px;
+background-color: lightgray;
+}
+
+.profile-photo {
+    background-color:rgb(111, 127, 196);
+    position: relative;
+    top: 175px;
+    left: 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 200px;
+    width: 200px;
+}
+
+.header-badges li {
+    position: relative;
+    top: 50px;
+    left: 300px;
+    list-style: none;
+    display: inline;
+    text-align: right;
+    padding: 0mm;
+    margin: 0mm;
+
+}
