@@ -1,8 +1,10 @@
-/*Come back to this section for a Navigation Section */
+/*Come back to this section for buttons */
 
 * {
     box-sizing: border-box;
-    margin: 0,0,0;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: sans-serif;
 }
 
 .header {
@@ -18,8 +20,14 @@
     margin: 100px;
     list-style: none;
     display: inline;
-    content: ;
 
+}
+.header-buttons {
+    font-size: 45px;
+    text-decoration: none;
+    position: relative;
+    left: 600px;
+    top: 205px
 }
 
 .header-info li{
@@ -28,36 +36,74 @@
     font-size: 24px;
     font: bold;
     font-family: sans-serif;
-    top: 250px;
-    left: 205px;
+    top: 220px;
+    left: 240px;
 }
 
 .header-sm {
-
-width: 850px;
-height: 100px;
-background-color: lightgray;
+    width: 850px;
+    height: 60px;
+    background-color: rgb(218, 214, 214);
 }
 
 .profile-photo {
     background-color:rgb(111, 127, 196);
     position: relative;
-    top: 175px;
-    left: 20px;
+    top: 70px;
+    left: -305px;
     border: 2px solid black;
     border-radius: 3px;
     height: 200px;
     width: 200px;
 }
 
-.header-badges li {
+#header-menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: 20px;
+    padding: 5px;
     position: relative;
-    top: 50px;
-    left: 300px;
-    list-style: none;
-    display: inline;
-    text-align: right;
-    padding: 0mm;
-    margin: 0mm;
-
+    top: 10px;
+    left: 225px;
+    margin: auto;
 }
+
+/*Come back to #header-menu for margins for  */
+
+/*create two columns left 328px / right column 512px with a space of 10px between them.*/
+
+.row {
+    position: relative;
+    top: 225px;
+    left: 30px;
+    width: 850px;
+    margin: 0 auto;
+    column-gap: 10px;
+}
+
+.column-left {
+    float: left;
+    column-width: 328px;
+    border: 1px dotted gray;
+}
+
+.About-Page {
+    float: left;
+    width: 328px;
+    border: 1px dotted gray;
+}
+
+
+
+.column-right {
+   float: right;
+    column-width: 512px;
+    border: 1px dotted gray;
+}
+
+/*.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }*/
